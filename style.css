@@ -114,13 +114,15 @@ input{
 
 @media screen and (max-width:800px) {
     body{
+        display: flex;
+        align-items: center;
         flex-direction: column;
     }
-    h1{
-        font-size: 40px;
-        font-weight: 600;
-    } 
-    
+    #logo{
+        height: 50vh;
+        width: 100%;
+        background: linear-gradient(58.8deg, #023E8A 41.98%, #2C5E9D 81.58%);
+    }
     #sign_in_form{
         width: 90%;
     }
