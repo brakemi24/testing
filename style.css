@@ -79,11 +79,26 @@ p{
     font-weight: 100;
     margin-left: 100px;
 }
-
 #account_already{
     font-size: small;
     font-weight: 200;
     margin-left: 140px;
+}
+
+.parent{
+    text-align: left;
+}
+
+#agree{
+    display: inline-block;
+    margin-left: -40px;
+  
+}
+
+#agrees{
+    display: inline-block;
+    margin-left: -140px;
+
 }
 
 label{
@@ -123,6 +138,11 @@ input{
         width: 100%;
         background: linear-gradient(58.8deg, #023E8A 41.98%, #2C5E9D 81.58%);
     }
+    h1{
+        font-size: 40px;
+        font-weight: 600;
+    } 
+    
     #sign_in_form{
         width: 90%;
     }
